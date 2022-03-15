@@ -18,6 +18,7 @@ namespace sleep
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
+            // PC‚ğ‹­§ƒXƒŠ[ƒv
             const bool force = true;
             Application.SetSuspendState(PowerState.Suspend, force, false);
 
